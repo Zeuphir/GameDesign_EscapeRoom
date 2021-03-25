@@ -41,11 +41,11 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: EMPTY
+    uniqueID: 3055347895
+    locked: 0
   - name: GROUND
     uniqueID: 3779529725
-    locked: 0
-  - name: PLAYER
-    uniqueID: 3068274697
     locked: 0
   - name: WALL
     uniqueID: 2323217047
@@ -53,9 +53,9 @@ TagManager:
   - name: OBJECT
     uniqueID: 3268364667
     locked: 0
+  - name: PLAYER
+    uniqueID: 3068274697
+    locked: 0
   - name: MOVE
     uniqueID: 2556434757
-    locked: 0
-  - name: EMPTY
-    uniqueID: 3055347895
     locked: 0
