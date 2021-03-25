@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+
     public float moveSpeed;
     private Animator anim;
     private Rigidbody2D myRigidbody;
@@ -41,5 +42,10 @@ public class PlayerController : MonoBehaviour
 
         anim.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
         anim.SetFloat("MoveY", Input.GetAxisRaw("Vertical"));
+
     }
+
+
+
+
 }
