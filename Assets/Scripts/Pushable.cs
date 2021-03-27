@@ -5,6 +5,7 @@ using UnityEngine;
 public class Pushable : MonoBehaviour
 {
 
+    /*
     public float distance = 1f;
     public LayerMask obj_mask;
 
@@ -27,6 +28,6 @@ public class Pushable : MonoBehaviour
         rigid_body.velocity = Vector2.zero;
     }
 
-    
+    */
 
 }
