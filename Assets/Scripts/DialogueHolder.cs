@@ -9,31 +9,44 @@ public class DialogueHolder : MonoBehaviour
     private DialogueManager dMan;
     public string[] dialogueLines;
 
+    private bool inside;
+
     // Start is called before the first frame update
     void Start()
     {
         dMan = FindObjectOfType<DialogueManager>();
+        inside = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-    }
-
-    void OnTriggerStay2D(Collider2D other)
-    {
-        if (other.gameObject.name == "Player_IDLE_0")
+         if (inside &&  Input.GetKeyDown(KeyCode.F))
         {
-            if (Input.GetKeyDown(KeyCode.E))
-            {
+           
                 if (!dMan.dialogActive)
                 {
                     dMan.dialogueLines = dialogueLines;
                     dMan.currentLine = 0;
                     dMan.ShowDialogue();
                 }
-            }
+            
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+       if (other.gameObject.tag == "Player")
+        {
+            inside = true;
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            inside = false;
         }
     }
 }

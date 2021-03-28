@@ -39,7 +39,6 @@ public class DialogueManager : MonoBehaviour
         dialogActive = true;
         dBox.SetActive(true);
         dText.text = dialog;
-        currentLine =  0;
     }
 
     public void ShowDialogue() {
