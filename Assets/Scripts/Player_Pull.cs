@@ -26,20 +26,20 @@ public class Player_Pull : MonoBehaviour
 
 
 
-        if (right_hit.collider != null && right_hit.collider.gameObject.tag == "pushable" && Input.GetKeyDown(KeyCode.E)) {
+        if (right_hit.collider != null && right_hit.collider.gameObject.tag == "Trigger" && Input.GetKeyDown(KeyCode.E)) {
             pullable = right_hit.collider.gameObject;
             pullable.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
             pullable.GetComponent<FixedJoint2D>().enabled = true;
             pullable.GetComponent<FixedJoint2D>().connectedBody = this.GetComponent<Rigidbody2D>();
         }
-        else if (up_hit.collider != null && up_hit.collider.gameObject.tag == "pushable" && Input.GetKeyDown(KeyCode.E))
+        else if (up_hit.collider != null && up_hit.collider.gameObject.tag == "Trigger" && Input.GetKeyDown(KeyCode.E))
         {
             pullable = up_hit.collider.gameObject;
             pullable.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
             pullable.GetComponent<FixedJoint2D>().enabled = true;
             pullable.GetComponent<FixedJoint2D>().connectedBody = this.GetComponent<Rigidbody2D>();
         }
-        else if (left_hit.collider != null && left_hit.collider.gameObject.tag == "pushable" && Input.GetKeyDown(KeyCode.E))
+        else if (left_hit.collider != null && left_hit.collider.gameObject.tag == "Trigger" && Input.GetKeyDown(KeyCode.E))
         {
             pullable = left_hit.collider.gameObject;
             pullable.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
@@ -47,7 +47,7 @@ public class Player_Pull : MonoBehaviour
             pullable.GetComponent<FixedJoint2D>().connectedBody = this.GetComponent<Rigidbody2D>();
         }
 
-        else if (down_hit.collider != null && down_hit.collider.gameObject.tag == "pushable" && Input.GetKeyDown(KeyCode.E))
+        else if (down_hit.collider != null && down_hit.collider.gameObject.tag == "Trigger" && Input.GetKeyDown(KeyCode.E))
         {
             pullable = down_hit.collider.gameObject;
             pullable.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;

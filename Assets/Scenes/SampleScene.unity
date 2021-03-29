@@ -672,6 +672,7 @@ GameObject:
   - component: {fileID: 990801742}
   - component: {fileID: 990801741}
   - component: {fileID: 990801740}
+  - component: {fileID: 990801743}
   m_Layer: 0
   m_Name: Pillar
   m_TagString: Trigger
@@ -742,6 +743,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!255 &990801743
+FixedJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 990801739}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 0}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 1
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 3.008, y: 1.315}
+  m_DampingRatio: 0
+  m_Frequency: 0
 --- !u!1 &1005148457
 GameObject:
   m_ObjectHideFlags: 0
@@ -918,6 +937,7 @@ GameObject:
   - component: {fileID: 1253772658}
   - component: {fileID: 1253772657}
   - component: {fileID: 1253772660}
+  - component: {fileID: 1253772661}
   m_Layer: 0
   m_Name: Pressure plate
   m_TagString: Untagged
@@ -1029,6 +1049,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 313764904}
+--- !u!50 &1253772661
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253772656}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1849869067
 GameObject:
   m_ObjectHideFlags: 0
@@ -1044,7 +1085,7 @@ GameObject:
   - component: {fileID: 1849869073}
   m_Layer: 0
   m_Name: BlueBox
-  m_TagString: pushable
+  m_TagString: Trigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
