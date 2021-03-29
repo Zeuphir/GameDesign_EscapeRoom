@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - pushable
+  - Trigger
   layers:
   - Default
   - TransparentFX
@@ -51,11 +52,11 @@ TagManager:
   - name: WALL
     uniqueID: 2323217047
     locked: 0
-  - name: OBJECT
-    uniqueID: 3268364667
-    locked: 0
   - name: PLAYER
     uniqueID: 3068274697
+    locked: 0
+  - name: OBJECT
+    uniqueID: 3268364667
     locked: 0
   - name: MOVE
     uniqueID: 2556434757
