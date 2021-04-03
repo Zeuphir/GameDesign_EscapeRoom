@@ -54,7 +54,7 @@ public class Player_Pull : MonoBehaviour
             pullable.GetComponent<FixedJoint2D>().enabled = true;
             pullable.GetComponent<FixedJoint2D>().connectedBody = this.GetComponent<Rigidbody2D>();
         }
-        else if (Input.GetKeyUp(KeyCode.E)) {
+        else if (Input.GetKeyUp(KeyCode.E) && pullable != null) {
             pullable.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
             pullable.GetComponent<FixedJoint2D>().enabled = false;
             pullable.GetComponent<FixedJoint2D>().connectedBody = null;
