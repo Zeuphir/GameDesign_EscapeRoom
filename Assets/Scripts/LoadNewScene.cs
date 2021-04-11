@@ -13,6 +13,8 @@ public class LoadNewScene : MonoBehaviour
 	public string sceneToLoad;
 	public GameObject door;
 	private Animator doorAnimator;	
+	public float transitionTime = 1f;
+	[SerializeField] private Animator transitionAnim;
 
 
 	void Start(){
@@ -20,10 +22,22 @@ public class LoadNewScene : MonoBehaviour
 		doorAnimator = door.GetComponent<Animator>();
 	}
 
+
     void OnTriggerEnter2D(Collider2D other){
-    	Debug.Log("COllision");
     	if(other.tag == "Player" && doorAnimator.GetBool("isOpen") == true){
-    		SceneManager.LoadScene(sceneToLoad);
+    		StartCoroutine(LoadLevel());
     	}
     }
+
+    IEnumerator LoadLevel() {
+    	//Play transition animation
+    	transitionAnim.SetTrigger("Start");
+
+    	//Wait
+    	yield return new WaitForSeconds(transitionTime);
+
+    	//Load next scene
+    	SceneManager.LoadScene(sceneToLoad);
+    }
+
 }
