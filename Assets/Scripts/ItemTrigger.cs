@@ -5,18 +5,40 @@ using UnityEngine;
 /** Use item on an object in the world*/
 public class ItemTrigger : MonoBehaviour
 {
-	[SerializeField] private Item item;
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
+	[SerializeField] private Animator anim; //Animation that should play when event is triggered
+	[SerializeField] private Item item; //Item necessary to trigger event
+	[SerializeField] private Item rewardItem; //Item is then added in the inventory
+    
+    private bool inside;
 
-    // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space)){
-        	Debug.Log("Removing item: " + item);
-			GameManager.instance.RemoveItem(item);	
+        if (inside && Input.GetKeyDown(KeyCode.Space))
+        { 
+	        if (GameManager.instance.itemPresent(item))
+	        {
+	            Debug.Log("Removing item: " + item);
+	            GameManager.instance.RemoveItem(item);
+	                
+	            anim.SetTrigger("Open");
+	            GameManager.instance.AddItem(rewardItem);
+	        }
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Player")
+        {
+            inside = true;
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.tag == "Player")
+        {
+            inside = false;
         }
     }
 }
