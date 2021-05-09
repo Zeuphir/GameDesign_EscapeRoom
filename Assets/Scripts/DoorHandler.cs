@@ -27,12 +27,16 @@ public class DoorHandler : MonoBehaviour
 
     public void openDoor() {
         door_collider.enabled = false;
-        GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0f);
+        //GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0f);
+        door_animation.SetBool("isOpen", true);
+        //sfxManager.doorOpen.Play(); //Play door opening sound
     }
 
     public void closeDoor() {
         door_collider.enabled = true;
-        GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
+        //GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
+        door_animation.SetBool("isOpen", false);
+        //sfxManager.doorOpen.Play(); //Play door opening sound
     }
 
     public bool check_if_openable() {
