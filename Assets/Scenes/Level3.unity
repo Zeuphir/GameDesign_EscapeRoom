@@ -180,7 +180,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.02586484, y: -0.019897461}
@@ -253,7 +253,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.0045689493, y: -0.0011390522}
@@ -65698,7 +65698,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.01510334, y: -0.03668022}
@@ -66035,7 +66035,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.00000023841858, y: -0.09459114}
@@ -66394,7 +66394,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 817087886}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.7, y: -0.35, z: 0}
+  m_LocalPosition: {x: 4.61, y: 59.02, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -67746,6 +67746,10 @@ PolygonCollider2D:
       - {x: -36.0139, y: 77.926735}
       - {x: -36.06421, y: 15.363907}
       - {x: -23.239511, y: 65.085594}
+      - {x: 5.937725, y: 65.03405}
+      - {x: 5.937856, y: 66.006805}
+      - {x: 6.9931455, y: 66.0396}
+      - {x: 6.9944925, y: 65.00831}
       - {x: 24.145847, y: 65.083496}
       - {x: 24.062881, y: 39.98299}
       - {x: 2.067546, y: 39.93137}
@@ -69931,7 +69935,7 @@ SpriteRenderer:
   m_SortingLayerID: -1971750249
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 536ca0ab6dfd94047bb2fc32eec2c836, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -69939,7 +69943,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1040898796
@@ -70334,7 +70338,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1172876896}
   - component: {fileID: 1172876895}
-  - component: {fileID: 1172876894}
   - component: {fileID: 1172876893}
   m_Layer: 0
   m_Name: Big_Box_03
@@ -70369,27 +70372,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.88116074, y: 1.8811607}
   m_EdgeRadius: 0
---- !u!50 &1172876894
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1172876892}
-  m_BodyType: 2
-  m_Simulated: 0
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!212 &1172876895
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -70467,7 +70449,6 @@ GameObject:
   - component: {fileID: 1197510054}
   - component: {fileID: 1197510053}
   - component: {fileID: 1197510052}
-  - component: {fileID: 1197510051}
   m_Layer: 0
   m_Name: Big_Box_01
   m_TagString: Untagged
@@ -70475,27 +70456,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!50 &1197510051
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1197510050}
-  m_BodyType: 2
-  m_Simulated: 0
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!61 &1197510052
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -70810,6 +70770,78 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &1315573845
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1315573848}
+  - component: {fileID: 1315573847}
+  - component: {fileID: 1315573846}
+  m_Layer: 0
+  m_Name: Endgame_Trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1315573846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1315573845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0382f3e1451217a4fa038e6d9a9faf41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: Menu
+  transitionTime: 1
+--- !u!61 &1315573847
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1315573845}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.103444576, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.958622, y: 1}
+  m_EdgeRadius: 0
+--- !u!4 &1315573848
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1315573845}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.39, y: 65.63, z: -183.81938}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 31
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1379914790
 GameObject:
   m_ObjectHideFlags: 0
@@ -70990,7 +71022,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: e816a8df4a90ca24aa4cbb4d404acbb7, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.12
+  m_Volume: 0.17
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -71395,7 +71427,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.01028017, y: 0.02391845}
@@ -71600,7 +71632,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.00000010430813, y: 0.00000011175871}
@@ -72207,7 +72239,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.00000009313226, y: 0.00000016391277}
@@ -72233,6 +72265,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2101732444}
   - component: {fileID: 2101732446}
+  - component: {fileID: 2101732447}
   - component: {fileID: 2101732445}
   m_Layer: 0
   m_Name: Talking
@@ -72264,13 +72297,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 2101732443}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3c9eb23ca1676244bd039a277d18500, type: 3}
+  m_Script: {fileID: 11500000, guid: 127e896dc35c0d94fa84c79f3e7338ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue: ---
-  dialogueLines:
-  - Hello young man, do you know how to open this door?
-  - I just don't know what to do.
+  firstDialogueLines:
+  - The door will only open, when the pressure plate is down, but all these boxes
+    are far too heavy to move.
+  - Quite a conundrum we found ourselves yes?
+  - Maybe... hm...yes...
+  - This could work.
+  secondDialogueLines:
+  - Push me on the button! I should be heavy enough.
+  - But please send someone to get me once you are outside.
+  parent: {fileID: 1379914790}
 --- !u!61 &2101732446
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -72297,6 +72337,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.20600107, y: 0.25653857}
   m_EdgeRadius: 0
+--- !u!114 &2101732447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101732443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3c9eb23ca1676244bd039a277d18500, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue: 
+  dialogueLines: []
 --- !u!1 &2120598865
 GameObject:
   m_ObjectHideFlags: 0
