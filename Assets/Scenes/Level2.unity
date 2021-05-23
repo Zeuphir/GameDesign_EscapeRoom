@@ -290,11 +290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45bbbd198829a1d45885893fa76b7322, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  validTrigger:
-  - egyptian_gods_yes1
-  - egyptian_gods_yes2
-  - egyptian_gods_yes3
-  - egyptian_gods_yes4
+  validTrigger: 
   anim: {fileID: 1425260478}
   limit: 4
 --- !u!1 &218479987
@@ -387,7 +383,7 @@ GameObject:
   - component: {fileID: 236577361}
   - component: {fileID: 236577360}
   m_Layer: 0
-  m_Name: egyptian_gods_no2
+  m_Name: god6
   m_TagString: Trigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -920,6 +916,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5046090574854957950, guid: cdc5253e05203594bab280e8b4888510, type: 3}
   m_PrefabInstance: {fileID: 593033487}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &593033490 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -2549735171561641080, guid: cdc5253e05203594bab280e8b4888510, type: 3}
+  m_PrefabInstance: {fileID: 593033487}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &620255055
 GameObject:
   m_ObjectHideFlags: 0
@@ -934,7 +935,7 @@ GameObject:
   - component: {fileID: 620255057}
   - component: {fileID: 620255056}
   m_Layer: 0
-  m_Name: egyptian_gods_no1
+  m_Name: god5
   m_TagString: Trigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1101,11 +1102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45bbbd198829a1d45885893fa76b7322, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  validTrigger:
-  - egyptian_gods_yes1
-  - egyptian_gods_yes2
-  - egyptian_gods_yes3
-  - egyptian_gods_yes4
+  validTrigger: egyptian_gods_yes1
   anim: {fileID: 1425260478}
   limit: 4
 --- !u!1 &683864592
@@ -1258,6 +1255,78 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &823932428
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 823932429}
+  - component: {fileID: 823932431}
+  - component: {fileID: 823932430}
+  m_Layer: 0
+  m_Name: dialogZonecat2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &823932429
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823932428}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.422, y: 0.452, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 593033490}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &823932430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823932428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3c9eb23ca1676244bd039a277d18500, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue: ---
+  dialogueLines: []
+--- !u!61 &823932431
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823932428}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.18841314, y: -0.026377797}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.3768263, y: 1.5049467}
+  m_EdgeRadius: 0
 --- !u!1 &824072296
 GameObject:
   m_ObjectHideFlags: 0
@@ -1346,11 +1415,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45bbbd198829a1d45885893fa76b7322, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  validTrigger:
-  - egyptian_gods_yes1
-  - egyptian_gods_yes2
-  - egyptian_gods_yes3
-  - egyptian_gods_yes4
+  validTrigger: 
   anim: {fileID: 1425260478}
   limit: 4
 --- !u!1 &875387618
@@ -1367,7 +1432,7 @@ GameObject:
   - component: {fileID: 875387620}
   - component: {fileID: 875387619}
   m_Layer: 0
-  m_Name: egyptian_gods_yes4
+  m_Name: god4
   m_TagString: Trigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1726,6 +1791,148 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.15694311, y: 0.12389217}
   m_EdgeRadius: 0
+--- !u!1 &1099930123
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1099930125}
+  - component: {fileID: 1099930124}
+  m_Layer: 0
+  m_Name: PuzzleManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1099930124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099930123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00565dfb36519c449990ab125abe8029, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NAMES:
+  - god1
+  - god2
+  - god3
+  - god4
+  - god5
+  - god6
+  SPRITES:
+  - {fileID: -5155432986165562163, guid: 94af0c2f09a9eee40ae818f5b8ba44ba, type: 3}
+  - {fileID: -3764640734912593691, guid: 94af0c2f09a9eee40ae818f5b8ba44ba, type: 3}
+  - {fileID: -9001743822354960673, guid: 94af0c2f09a9eee40ae818f5b8ba44ba, type: 3}
+  - {fileID: -6311867789422709269, guid: 94af0c2f09a9eee40ae818f5b8ba44ba, type: 3}
+  - {fileID: -4486118526560143202, guid: 94af0c2f09a9eee40ae818f5b8ba44ba, type: 3}
+  - {fileID: -4149684229602097237, guid: 94af0c2f09a9eee40ae818f5b8ba44ba, type: 3}
+  - {fileID: -1295110215037933330, guid: 94af0c2f09a9eee40ae818f5b8ba44ba, type: 3}
+  - {fileID: 16462077065072325, guid: 94af0c2f09a9eee40ae818f5b8ba44ba, type: 3}
+  - {fileID: 44128528445703857, guid: 94af0c2f09a9eee40ae818f5b8ba44ba, type: 3}
+  - {fileID: 6525202548577637159, guid: 94af0c2f09a9eee40ae818f5b8ba44ba, type: 3}
+  - {fileID: 7645836748951842831, guid: 94af0c2f09a9eee40ae818f5b8ba44ba, type: 3}
+  - {fileID: 4679355599413301142, guid: 94af0c2f09a9eee40ae818f5b8ba44ba, type: 3}
+  - {fileID: -5304537151471204624, guid: 94af0c2f09a9eee40ae818f5b8ba44ba, type: 3}
+  - {fileID: -3470333233157810833, guid: 94af0c2f09a9eee40ae818f5b8ba44ba, type: 3}
+  - {fileID: -5234666999328532877, guid: 94af0c2f09a9eee40ae818f5b8ba44ba, type: 3}
+  - {fileID: -8766986919819653279, guid: 94af0c2f09a9eee40ae818f5b8ba44ba, type: 3}
+  - {fileID: 2142847482462057904, guid: 94af0c2f09a9eee40ae818f5b8ba44ba, type: 3}
+  - {fileID: 1289795707721767501, guid: 94af0c2f09a9eee40ae818f5b8ba44ba, type: 3}
+  SMALL:
+  - {fileID: -7630492542461838860, guid: 94af0c2f09a9eee40ae818f5b8ba44ba, type: 3}
+  - {fileID: 2691495977584753307, guid: 94af0c2f09a9eee40ae818f5b8ba44ba, type: 3}
+  - {fileID: 3706576677226207430, guid: 94af0c2f09a9eee40ae818f5b8ba44ba, type: 3}
+  - {fileID: 7934292417789188157, guid: 94af0c2f09a9eee40ae818f5b8ba44ba, type: 3}
+  - {fileID: -2552104542211276990, guid: 94af0c2f09a9eee40ae818f5b8ba44ba, type: 3}
+  - {fileID: -552474643497042721, guid: 94af0c2f09a9eee40ae818f5b8ba44ba, type: 3}
+  - {fileID: -5565145248252841711, guid: 94af0c2f09a9eee40ae818f5b8ba44ba, type: 3}
+  - {fileID: 114761977073037216, guid: 94af0c2f09a9eee40ae818f5b8ba44ba, type: 3}
+  - {fileID: -443520601446024043, guid: 94af0c2f09a9eee40ae818f5b8ba44ba, type: 3}
+  - {fileID: -414768145522094199, guid: 94af0c2f09a9eee40ae818f5b8ba44ba, type: 3}
+  - {fileID: 1244898824646884333, guid: 94af0c2f09a9eee40ae818f5b8ba44ba, type: 3}
+  - {fileID: -8870051711514242616, guid: 94af0c2f09a9eee40ae818f5b8ba44ba, type: 3}
+  - {fileID: 4889519224869722725, guid: 94af0c2f09a9eee40ae818f5b8ba44ba, type: 3}
+  - {fileID: 8402289027927028571, guid: 94af0c2f09a9eee40ae818f5b8ba44ba, type: 3}
+  - {fileID: 503650228480940817, guid: 94af0c2f09a9eee40ae818f5b8ba44ba, type: 3}
+  - {fileID: 3041161564499190586, guid: 94af0c2f09a9eee40ae818f5b8ba44ba, type: 3}
+  - {fileID: -7236946277685441758, guid: 94af0c2f09a9eee40ae818f5b8ba44ba, type: 3}
+  - {fileID: 3891375519482661906, guid: 94af0c2f09a9eee40ae818f5b8ba44ba, type: 3}
+  SELECTED: 
+  plates:
+  - {fileID: 673879543}
+  - {fileID: 868478961}
+  - {fileID: 2039688535}
+  - {fileID: 117343165}
+  pushables:
+  - {fileID: 1633220515}
+  - {fileID: 1227817819}
+  - {fileID: 1989089606}
+  - {fileID: 875387618}
+  - {fileID: 620255055}
+  - {fileID: 236577359}
+  imageHolder:
+  - {fileID: 1098542005}
+  - {fileID: 784587710}
+  - {fileID: 824072296}
+  - {fileID: 1098428057}
+  - {fileID: 1915447603}
+  - {fileID: 218479987}
+  cats:
+  - {fileID: 1783179868}
+  - {fileID: 823932428}
+  Dialogues:
+  - Atum is the first god in the Heliopolitan creation myth and he is pretty plain
+    looking.
+  - Shu is the spouse to the goddess Tefnut and he has a feather on his head.
+  - Tefnut is a lion goddess with a green staff and consort of Shu.
+  - Ra the sun god is often portrayed with a falcon head.
+  - Nut is the goddess of the stars, sky and cosmos, she is mostly depicted with
+    a water-pot.
+  - Amun is the patron deity of Thebes and has two plumes on his head.
+  - Sekhmet is a lioness goddess which specialized in war, posions and plagues, which
+    ironically was also associated with the sun.
+  - Ma'at is the female personification of truth, balance order and law. A feather
+    which symbolizes her was used by Anubis to judge the dead.
+  - Hathor was the goddess of love, music and drunkness. She is oftenlinked with
+    the sky or sun.
+  - The god of the Earth was Geb, whose laughter created earthquakes. Geese are his
+    sacred animals.
+  - Neith is the goddess of wisdom, weaving, hunting and fate. She is depicted with
+    a shield on her head.
+  - Ptah is the god of craftsmen and architects. He is often depicted as a mummified
+    man with a scepter.
+  - Set is the god of chaos, storms and desert. He is often depicted as an aardvark.
+  - Anubis the jackal god of mummification and the judge of the souls.
+  - Horus, the child of Osiris and Isis, is th egod of the sky and he is often depicted
+    as a falcon.
+  - Thoth the god of moon, wisdom and medicin has the head of an Ibis.
+  - The patron god of the army is the crocodile-god Sobek.
+  - Serket is the goddess of fertility and healing venomous stings and bites. Originally
+    she was the deification of the scorpion.
+  - Listen closely, because i will explain which gods belong to the 2 plates before
+    me!
+--- !u!4 &1099930125
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099930123}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.415012, y: -2.7413085, z: -249.9472}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1106021669
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1881,7 +2088,7 @@ GameObject:
   - component: {fileID: 1227817824}
   - component: {fileID: 1227817823}
   m_Layer: 0
-  m_Name: egyptian_gods_yes2
+  m_Name: god2
   m_TagString: Trigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2343,7 +2550,7 @@ GameObject:
   - component: {fileID: 1633220520}
   - component: {fileID: 1633220519}
   m_Layer: 0
-  m_Name: egyptian_gods_yes1
+  m_Name: god1
   m_TagString: Trigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2967,7 +3174,7 @@ GameObject:
   - component: {fileID: 1989089608}
   - component: {fileID: 1989089607}
   m_Layer: 0
-  m_Name: egyptian_gods_yes3
+  m_Name: god3
   m_TagString: Trigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3124,11 +3331,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45bbbd198829a1d45885893fa76b7322, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  validTrigger:
-  - egyptian_gods_yes1
-  - egyptian_gods_yes2
-  - egyptian_gods_yes3
-  - egyptian_gods_yes4
+  validTrigger: 
   anim: {fileID: 1425260478}
   limit: 4
 --- !u!1 &2045223869
