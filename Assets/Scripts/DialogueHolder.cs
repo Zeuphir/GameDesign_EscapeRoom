@@ -49,4 +49,9 @@ public class DialogueHolder : MonoBehaviour
             inside = false;
         }
     }
+
+    public void setDLines(string[] lines)
+    {
+        dialogueLines = lines;
+    }
 }

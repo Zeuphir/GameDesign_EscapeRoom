@@ -47,4 +47,9 @@ public class ImageHolder : MonoBehaviour
             inside = false;
         }
     }
+
+    public void setImageSprite(Sprite sprite)
+    {
+        spri = sprite;
+    }
 }

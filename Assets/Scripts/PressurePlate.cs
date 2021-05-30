@@ -41,4 +41,13 @@ public class PressurePlate : MonoBehaviour
 	    Debug.Log("Exit: " + count);
 	}
 
+    public void SETSprite(Sprite sprite)
+    {
+        GetComponent<SpriteRenderer>().sprite = sprite;
+    }
+
+    public void SETValidTrigger(string newTrigger)
+    {
+        this.validTrigger = newTrigger;
+    }
 }
