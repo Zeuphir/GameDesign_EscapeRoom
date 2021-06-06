@@ -302,6 +302,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TimerText: {fileID: 49167505}
   playing: 0
+  game_over_scene_name: GameOver
 --- !u!114 &49167505
 MonoBehaviour:
   m_ObjectHideFlags: 0
