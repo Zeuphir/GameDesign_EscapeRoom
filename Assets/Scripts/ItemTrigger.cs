@@ -17,15 +17,16 @@ public class ItemTrigger : MonoBehaviour
         { 
 	        if (GameManager.instance.itemPresent(triggerItem))
 	        {
-	            Debug.Log("Removing item: " + triggerItem);
+	           // Debug.Log("Removing item: " + triggerItem);
 	            GameManager.instance.RemoveItem(triggerItem);
 	                
 	            anim.SetBool("isOpen", true);
-	            GameManager.instance.AddItem(rewardItem);
+	
+               if(rewardItem != null) {
+                    GameManager.instance.AddItem(rewardItem);
+                } 
 
 	        } else if (triggerItem == null){ //Animation triggered without triggerItem
-                anim.SetTrigger("Open");
-                Debug.Log("Removing item: " + triggerItem);
                 anim.SetBool("isOpen", true);
 
                 if(rewardItem != null) {
