@@ -302,7 +302,7 @@ MonoBehaviour:
   dialogue: ---
   dialogueLines:
   - More than I ever wanted to know about pillars of various shapes and patterns.
-  - Not really interesting.
+    Not really interesting.
 --- !u!61 &98689293
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -65869,7 +65869,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue: ---
   dialogueLines:
-  - A big statue besides a much smaller one.
+  - A big statue besides a much smaller one. The marble looks so life like.
 --- !u!61 &451508050
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -66061,8 +66061,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue: ---
   dialogueLines:
-  - Pillars break if you do not handle them correctly.
-  - Seems reasonable.
+  - Pillars break if you do not handle them correctly. Seems reasonable.
 --- !u!61 &646402406
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -66388,8 +66387,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue: ---
   dialogueLines:
-  - 'Even more statues from Greece. Maybe if I had more time '
-  - I can appreciate such things.
+  - Even more statues from Greece. Maybe if I had more time I can appreciate such
+    things.
 --- !u!61 &823049885
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -70536,7 +70535,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue: ---
   dialogueLines:
-  - I do not have the time to go back.
+  - I do not have the time to go back. I need to find the exit!
 --- !u!61 &1231129695
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -71863,8 +71862,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue: ---
   dialogueLines:
-  - Vases make good decorations, who would have thought!
-  - Nonetheless, time is running out. I better hurry.
+  - Vases make good decorations, who would have thought! Nonetheless, time is running
+    out. I better hurry.
 --- !u!61 &1852249616
 BoxCollider2D:
   m_ObjectHideFlags: 0
