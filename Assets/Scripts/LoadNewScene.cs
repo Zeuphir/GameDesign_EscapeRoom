@@ -19,14 +19,25 @@ public class LoadNewScene : MonoBehaviour
 
 	void Start(){
 		door = GameObject.Find("Door");
-		doorAnimator = door.GetComponent<Animator>();
+		if(door != null){
+			doorAnimator = door.GetComponent<Animator>();	
+		}
+		
 	}
 
 
     void OnTriggerEnter2D(Collider2D other){
-    	if(other.tag == "Player" && doorAnimator.GetBool("isOpen") == true){
+    	if(doorAnimator != null){
+	    	if(other.tag == "Player" && doorAnimator.GetBool("isOpen") == true){
+	    		StartCoroutine(LoadLevel());
+	    	}
+    	} else {
+    		if(other.tag == "Player"){
     		StartCoroutine(LoadLevel());
     	}
+    	}
+
+
     }
 
     IEnumerator LoadLevel() {
