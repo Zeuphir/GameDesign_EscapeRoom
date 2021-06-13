@@ -12,10 +12,12 @@ public class DialogueManager : MonoBehaviour
     public string[] dialogueLines;
     public int currentLine;
 
+    private PlayerController thePlayer;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        thePlayer = FindObjectOfType<PlayerController>();
     }
 
     // Update is called once per frame
@@ -30,6 +32,7 @@ public class DialogueManager : MonoBehaviour
             dBox.SetActive(false);
             dialogActive = false;
             currentLine = 0;
+            thePlayer.canMove = true;
         }
         dText.text = dialogueLines[currentLine];
     }
@@ -45,5 +48,6 @@ public class DialogueManager : MonoBehaviour
     {
         dialogActive = true;
         dBox.SetActive(true);
+        thePlayer.canMove = false;
     }
 }
