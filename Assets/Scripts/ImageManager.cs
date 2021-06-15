@@ -10,10 +10,12 @@ public class ImageManager : MonoBehaviour
     public Sprite spriteToChangeItTo;
     public bool imageActive;
 
+    private PlayerController thePlayer;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        thePlayer = FindObjectOfType<PlayerController>();
     }
 
     // Update is called once per frame
@@ -23,6 +25,7 @@ public class ImageManager : MonoBehaviour
         {
             imageActive = false;
             imgBox.SetActive(false);
+            thePlayer.canMove = true;
         }
     }
 
@@ -35,5 +38,6 @@ public class ImageManager : MonoBehaviour
     {
         imageActive = true;
         imgBox.SetActive(true);
+        thePlayer.canMove = false;
     }
 }
