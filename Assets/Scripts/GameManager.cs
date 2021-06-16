@@ -37,17 +37,10 @@ public class GameManager : MonoBehaviour
 	    		slots[i].transform.GetChild(0).GetComponent<Image>().color = new Color(1,1,1,1);
 	    		slots[i].transform.GetChild(0).GetComponent<Image>().sprite = items[i].itemSprite;
 
-	    		//Update slots count text
-	    		slots[i].transform.GetChild(1).GetComponent<Text>().color = new Color(1,1,1,1);
-	    		slots[i].transform.GetChild(1).GetComponent<Text>().text = itemNumbers[i].ToString();
     		} else {
     			//Update slots item image
 	    		slots[i].transform.GetChild(0).GetComponent<Image>().color = new Color(1,1,1,0);
 	    		slots[i].transform.GetChild(0).GetComponent<Image>().sprite = null;
-
-	    		//update slots count text
-	    		slots[i].transform.GetChild(1).GetComponent<Text>().color = new Color(1,1,1,0);
-	    		slots[i].transform.GetChild(1).GetComponent<Text>().text = null;
     		}
     	}
     }
@@ -72,7 +65,7 @@ public class GameManager : MonoBehaviour
 	{
 		//If item is in the list
 		if(items.Contains(_item)){
-			Debug.Log(_item + " is in the list");
+			//Debug.Log(_item + " is in the list");
 			for(int i = 0; i < items.Count; i++){
 				itemNumbers[i]--;
 				if(itemNumbers[i] == 0){
@@ -88,7 +81,7 @@ public class GameManager : MonoBehaviour
     {
 		if (items.Contains(_item))
 		{
-			Debug.Log(_item + " is in the list");
+			//Debug.Log(_item + " is in the list");
 			for (int i = 0; i < items.Count; i++)
 			{
 				itemNumbers[i]--;

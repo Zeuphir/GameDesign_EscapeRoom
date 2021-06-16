@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DialogueHolder : MonoBehaviour
 {
-
+	[SerializeField] private Animator anim; //Talking animation for cats
     public string dialogue;
     private DialogueManager dMan;
     public string[] dialogueLines;
@@ -23,9 +23,9 @@ public class DialogueHolder : MonoBehaviour
     {
         if (inside && Input.GetKeyDown(KeyCode.F))
         {
-
             if (!dMan.dialogActive)
             {
+				anim.SetBool("isTalking", true);
                 dMan.dialogueLines = dialogueLines;
                 dMan.currentLine = 0;
                 dMan.ShowDialogue();
