@@ -6,7 +6,7 @@ using UnityEngine;
 public class ItemTrigger : MonoBehaviour
 {
 	[SerializeField] private Animator anim; //Animation that should play when event is triggered
-	[SerializeField] private Item item; //Item necessary to trigger event
+	[SerializeField] private Item triggerItem; //Item necessary to trigger event
 	[SerializeField] private Item rewardItem; //Item is then added in the inventory
     
     private bool inside;
@@ -15,14 +15,24 @@ public class ItemTrigger : MonoBehaviour
     {
         if (inside && Input.GetKeyDown(KeyCode.Space))
         { 
-	        if (GameManager.instance.itemPresent(item))
+	        if (GameManager.instance.itemPresent(triggerItem))
 	        {
-	            Debug.Log("Removing item: " + item);
-	            GameManager.instance.RemoveItem(item);
+	           // Debug.Log("Removing item: " + triggerItem);
+	            GameManager.instance.RemoveItem(triggerItem);
 	                
-	            anim.SetTrigger("Open");
-	            GameManager.instance.AddItem(rewardItem);
-	        }
+	            anim.SetBool("isOpen", true);
+	
+               if(rewardItem != null) {
+                    GameManager.instance.AddItem(rewardItem);
+                } 
+
+	        } else if (triggerItem == null){ //Animation triggered without triggerItem
+                anim.SetBool("isOpen", true);
+
+                if(rewardItem != null) {
+                    GameManager.instance.AddItem(rewardItem);
+                }              
+            }
         }
     }
 

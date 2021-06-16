@@ -1,67 +1,76 @@
 fileFormatVersion: 2
-guid: dda0d17fe442a2a40b4946ac7769a903
+guid: ffeea0f44a8279a4fbe1bdb99ec50dbd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2832553522608653778
-    second: Cat_Idle_full_animation_0
+      213: -4716682474460928522
+    second: Cat_Talking_Animation_Full(left)_0
   - first:
-      213: -8572300853090284320
-    second: Cat_Idle_full_animation_1
+      213: -7840380429532081124
+    second: Cat_Talking_Animation_Full(left)_1
   - first:
-      213: 8798762744959631141
-    second: Cat_Idle_full_animation_2
+      213: 90115360219764175
+    second: Cat_Talking_Animation_Full(left)_2
   - first:
-      213: 8946851830165658912
-    second: Cat_Idle_full_animation_3
+      213: -5563532099771817902
+    second: Cat_Talking_Animation_Full(left)_3
   - first:
-      213: 8620860167794550385
-    second: Cat_Idle_full_animation_4
+      213: -2954035727972640628
+    second: Cat_Talking_Animation_Full(left)_4
   - first:
-      213: -6051362778267451665
-    second: Cat_Idle_full_animation_5
+      213: 1670541760550445291
+    second: Cat_Talking_Animation_Full(left)_5
   - first:
-      213: -5468034115897971879
-    second: Cat_Idle_full_animation_6
+      213: 7545035705819889704
+    second: Cat_Talking_Animation_Full(left)_6
   - first:
-      213: -6009610384889288386
-    second: Cat_Idle_full_animation_7
+      213: 1896958368279851263
+    second: Cat_Talking_Animation_Full(left)_7
   - first:
-      213: -6830012635799348749
-    second: Cat_Idle_full_animation_8
+      213: -3004446123709935720
+    second: Cat_Talking_Animation_Full(left)_8
   - first:
-      213: -7962636374941434714
-    second: Cat_Idle_full_animation_9
+      213: -7802981232618078637
+    second: Cat_Talking_Animation_Full(left)_9
   - first:
-      213: 1270926046975129593
-    second: Cat_Idle_full_animation_10
+      213: 7255911302254274586
+    second: Cat_Talking_Animation_Full(left)_10
   - first:
-      213: 5637767771479985353
-    second: Cat_Idle_full_animation_11
+      213: -3800098982834127304
+    second: Cat_Talking_Animation_Full(left)_11
   - first:
-      213: 8248712274223061074
-    second: Cat_Idle_full_animation_12
+      213: 2343625837540359765
+    second: Cat_Talking_Animation_Full(left)_12
   - first:
-      213: -3960326477331908732
-    second: Cat_Idle_full_animation_13
+      213: 6977801395953299435
+    second: Cat_Talking_Animation_Full(left)_13
   - first:
-      213: -2071723254328699292
-    second: Cat_Idle_full_animation_14
+      213: -5640503488271733015
+    second: Cat_Talking_Animation_Full(left)_14
   - first:
-      213: -725596804381418173
-    second: Cat_Idle_full_animation_15
+      213: 8148446187736170474
+    second: Cat_Talking_Animation_Full(left)_15
   - first:
-      213: -8635568280917493127
-    second: Cat_Idle_full_animation_16
+      213: -2249854688370083505
+    second: Cat_Talking_Animation_Full(left)_16
   - first:
-      213: -3512409500643495209
-    second: Cat_Idle_full_animation_17
+      213: 2216685225056690708
+    second: Cat_Talking_Animation_Full(left)_17
   - first:
-      213: -6474853633961607115
-    second: Cat_Idle_full_animation_18
+      213: 2267899953864774916
+    second: Cat_Talking_Animation_Full(left)_18
   - first:
-      213: -3457804375063141395
-    second: Cat_Idle_full_animation_19
+      213: 2907815183509641538
+    second: Cat_Talking_Animation_Full(left)_19
+  - first:
+      213: 4601776351718496224
+    second: Cat_Talking_Animation_Full(left)_20
+  - first:
+      213: -6961784990865981502
+    second: Cat_Talking_Animation_Full(left)_21
+  - first:
+      213: 2598788705631626470
+    second: Cat_Talking_Animation_Full(left)_22
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -125,19 +134,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 512
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Standalone
-    maxTextureSize: 512
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -163,7 +160,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cat_Idle_full_animation_0
+      name: Cat_Talking_Animation_Full(left)_0
       rect:
         serializedVersion: 2
         x: 0
@@ -177,14 +174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d5ce5adb604f4720800000000000000
-      internalID: 2832553522608653778
+      spriteID: 6f5227f874afa8eb0800000000000000
+      internalID: -4716682474460928522
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat_Idle_full_animation_1
+      name: Cat_Talking_Animation_Full(left)_1
       rect:
         serializedVersion: 2
         x: 16
@@ -198,14 +195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ec86c7cac1190980800000000000000
-      internalID: -8572300853090284320
+      spriteID: c14d0d91a8f513390800000000000000
+      internalID: -7840380429532081124
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat_Idle_full_animation_2
+      name: Cat_Talking_Animation_Full(left)_2
       rect:
         serializedVersion: 2
         x: 32
@@ -219,14 +216,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52f7244491c7b1a70800000000000000
-      internalID: 8798762744959631141
+      spriteID: fc594b25177204100800000000000000
+      internalID: 90115360219764175
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat_Idle_full_animation_3
+      name: Cat_Talking_Animation_Full(left)_3
       rect:
         serializedVersion: 2
         x: 48
@@ -240,14 +237,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02dd31b465a992c70800000000000000
-      internalID: 8946851830165658912
+      spriteID: 2502e98380d5ac2b0800000000000000
+      internalID: -5563532099771817902
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat_Idle_full_animation_4
+      name: Cat_Talking_Animation_Full(left)_4
       rect:
         serializedVersion: 2
         x: 64
@@ -261,14 +258,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17665b7b5a273a770800000000000000
-      internalID: 8620860167794550385
+      spriteID: c88d06418282107d0800000000000000
+      internalID: -2954035727972640628
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat_Idle_full_animation_5
+      name: Cat_Talking_Animation_Full(left)_5
       rect:
         serializedVersion: 2
         x: 80
@@ -282,14 +279,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: feef85a5d9d350ca0800000000000000
-      internalID: -6051362778267451665
+      spriteID: be0a01c51e4fe2710800000000000000
+      internalID: 1670541760550445291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat_Idle_full_animation_6
+      name: Cat_Talking_Animation_Full(left)_6
       rect:
         serializedVersion: 2
         x: 96
@@ -303,14 +300,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95b2f2641f3ad14b0800000000000000
-      internalID: -5468034115897971879
+      spriteID: 8208807cff955b860800000000000000
+      internalID: 7545035705819889704
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat_Idle_full_animation_7
+      name: Cat_Talking_Animation_Full(left)_7
       rect:
         serializedVersion: 2
         x: 112
@@ -324,14 +321,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e39ec2af133999ca0800000000000000
-      internalID: -6009610384889288386
+      spriteID: ff0760fd599535a10800000000000000
+      internalID: 1896958368279851263
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat_Idle_full_animation_8
+      name: Cat_Talking_Animation_Full(left)_8
       rect:
         serializedVersion: 2
         x: 128
@@ -345,14 +342,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f910c7d1bbe631a0800000000000000
-      internalID: -6830012635799348749
+      spriteID: 89f48713b201e46d0800000000000000
+      internalID: -3004446123709935720
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat_Idle_full_animation_9
+      name: Cat_Talking_Animation_Full(left)_9
       rect:
         serializedVersion: 2
         x: 144
@@ -366,14 +363,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6acf204a7680f7190800000000000000
-      internalID: -7962636374941434714
+      spriteID: 35e72c039ed36b390800000000000000
+      internalID: -7802981232618078637
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat_Idle_full_animation_10
+      name: Cat_Talking_Animation_Full(left)_10
       rect:
         serializedVersion: 2
         x: 160
@@ -387,14 +384,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f77ebd818c33a110800000000000000
-      internalID: 1270926046975129593
+      spriteID: a18ab9cc2ec22b460800000000000000
+      internalID: 7255911302254274586
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat_Idle_full_animation_11
+      name: Cat_Talking_Animation_Full(left)_11
       rect:
         serializedVersion: 2
         x: 176
@@ -408,14 +405,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ccc5310bef5d3e40800000000000000
-      internalID: 5637767771479985353
+      spriteID: 83e39d0eb16534bc0800000000000000
+      internalID: -3800098982834127304
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat_Idle_full_animation_12
+      name: Cat_Talking_Animation_Full(left)_12
       rect:
         serializedVersion: 2
         x: 192
@@ -429,14 +426,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 258587f1c10597270800000000000000
-      internalID: 8248712274223061074
+      spriteID: 55e350d384b368020800000000000000
+      internalID: 2343625837540359765
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat_Idle_full_animation_13
+      name: Cat_Talking_Animation_Full(left)_13
       rect:
         serializedVersion: 2
         x: 208
@@ -450,14 +447,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 487be043d081a09c0800000000000000
-      internalID: -3960326477331908732
+      spriteID: bef650f466126d060800000000000000
+      internalID: 6977801395953299435
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat_Idle_full_animation_14
+      name: Cat_Talking_Animation_Full(left)_14
       rect:
         serializedVersion: 2
         x: 224
@@ -471,14 +468,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46652d83da2cf33e0800000000000000
-      internalID: -2071723254328699292
+      spriteID: 9ee263b46f7e8b1b0800000000000000
+      internalID: -5640503488271733015
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat_Idle_full_animation_15
+      name: Cat_Talking_Animation_Full(left)_15
       rect:
         serializedVersion: 2
         x: 240
@@ -492,14 +489,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34ddfa00d892ee5f0800000000000000
-      internalID: -725596804381418173
+      spriteID: aef766ba2a8151170800000000000000
+      internalID: 8148446187736170474
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat_Idle_full_animation_16
+      name: Cat_Talking_Animation_Full(left)_16
       rect:
         serializedVersion: 2
         x: 256
@@ -513,14 +510,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97a3846d66c482880800000000000000
-      internalID: -8635568280917493127
+      spriteID: f493477c419e6c0e0800000000000000
+      internalID: -2249854688370083505
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat_Idle_full_animation_17
+      name: Cat_Talking_Animation_Full(left)_17
       rect:
         serializedVersion: 2
         x: 272
@@ -534,14 +531,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d2ff603b2a614fc0800000000000000
-      internalID: -3512409500643495209
+      spriteID: 4126c5ab77f33ce10800000000000000
+      internalID: 2216685225056690708
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat_Idle_full_animation_18
+      name: Cat_Talking_Animation_Full(left)_18
       rect:
         serializedVersion: 2
         x: 288
@@ -555,14 +552,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5304217dce2b426a0800000000000000
-      internalID: -6474853633961607115
+      spriteID: 4051c300ef2397f10800000000000000
+      internalID: 2267899953864774916
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat_Idle_full_animation_19
+      name: Cat_Talking_Animation_Full(left)_19
       rect:
         serializedVersion: 2
         x: 304
@@ -576,8 +573,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de3e199bd396300d0800000000000000
-      internalID: -3457804375063141395
+      spriteID: 249549dc082aa5820800000000000000
+      internalID: 2907815183509641538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cat_Talking_Animation_Full(left)_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e759fbe53bccdf30800000000000000
+      internalID: 4601776351718496224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cat_Talking_Animation_Full(left)_21
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf79c89f65c26f90800000000000000
+      internalID: -6961784990865981502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cat_Talking_Animation_Full(left)_22
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4687d0f80c01420800000000000000
+      internalID: 2598788705631626470
       vertices: []
       indices: 
       edges: []
