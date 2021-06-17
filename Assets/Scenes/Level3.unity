@@ -167,6 +167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3c9eb23ca1676244bd039a277d18500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 0}
   dialogue: ---
   dialogueLines:
   - I cannot move this it is too heavy.
@@ -240,6 +241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3c9eb23ca1676244bd039a277d18500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 0}
   dialogue: ---
   dialogueLines:
   - A pressure plate. Something heavy would activate it.
@@ -299,6 +301,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3c9eb23ca1676244bd039a277d18500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 0}
   dialogue: ---
   dialogueLines:
   - More than I ever wanted to know about pillars of various shapes and patterns.
@@ -65663,6 +65666,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3c9eb23ca1676244bd039a277d18500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 0}
   dialogue: ---
   dialogueLines:
   - I cannot move this it is too heavy.
@@ -65867,6 +65871,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3c9eb23ca1676244bd039a277d18500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 0}
   dialogue: ---
   dialogueLines:
   - A big statue besides a much smaller one. The marble looks so life like.
@@ -66000,6 +66005,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3c9eb23ca1676244bd039a277d18500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 0}
   dialogue: ---
   dialogueLines:
   - I cannot move this it is too heavy.
@@ -66059,6 +66065,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3c9eb23ca1676244bd039a277d18500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 0}
   dialogue: ---
   dialogueLines:
   - Pillars break if you do not handle them correctly. Seems reasonable.
@@ -66385,6 +66392,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3c9eb23ca1676244bd039a277d18500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 0}
   dialogue: ---
   dialogueLines:
   - Even more statues from Greece. Maybe if I had more time I can appreciate such
@@ -66459,6 +66467,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3c9eb23ca1676244bd039a277d18500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 0}
   dialogue: ---
   dialogueLines:
   - Some greek and roman shaped pillars.
@@ -69823,7 +69832,7 @@ MonoBehaviour:
   limit: 1
   count: 0
   door_name: Green
-  debug_mode: 1
+  debug_mode: 0
 --- !u!61 &1040898794
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -70004,6 +70013,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3c9eb23ca1676244bd039a277d18500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 0}
   dialogue: ---
   dialogueLines:
   - Information pertaining to the vase. Not really important now.
@@ -70037,6 +70047,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3c9eb23ca1676244bd039a277d18500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 0}
   dialogue: ---
   dialogueLines:
   - Some greek and roman shaped pillars.
@@ -70124,6 +70135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3c9eb23ca1676244bd039a277d18500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 0}
   dialogue: ---
   dialogueLines:
   - I cannot move this it is too heavy.
@@ -70183,6 +70195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3c9eb23ca1676244bd039a277d18500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 0}
   dialogue: ---
   dialogueLines:
   - A statue of a disc throwing man and thhe bust of a young woman.
@@ -70533,6 +70546,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3c9eb23ca1676244bd039a277d18500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 0}
   dialogue: ---
   dialogueLines:
   - I do not have the time to go back. I need to find the exit!
@@ -70614,7 +70628,7 @@ MonoBehaviour:
   limit: 1
   count: 0
   door_name: 
-  debug_mode: 1
+  debug_mode: 0
 --- !u!61 &1313262304
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -71369,6 +71383,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3c9eb23ca1676244bd039a277d18500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 0}
   dialogue: ---
   dialogueLines:
   - A pressure plate. Something heavy would activate it.
@@ -71552,6 +71567,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3c9eb23ca1676244bd039a277d18500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 0}
   dialogue: ---
   dialogueLines:
   - A pressure plate. Something heavy would activate it.
@@ -71619,7 +71635,7 @@ MonoBehaviour:
   limit: 2
   count: 0
   door_name: BLUE
-  debug_mode: 1
+  debug_mode: 0
 --- !u!61 &1796228498
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -71860,6 +71876,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3c9eb23ca1676244bd039a277d18500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 0}
   dialogue: ---
   dialogueLines:
   - Vases make good decorations, who would have thought! Nonetheless, time is running
@@ -71999,6 +72016,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3c9eb23ca1676244bd039a277d18500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 0}
   dialogue: ---
   dialogueLines:
   - Descriptions of the statues. They were found close to a quarry in Greece.
@@ -72086,6 +72104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3c9eb23ca1676244bd039a277d18500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 0}
   dialogue: ---
   dialogueLines:
   - I cannot move this it is too heavy.
@@ -72159,6 +72178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3c9eb23ca1676244bd039a277d18500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 0}
   dialogue: ---
   dialogueLines:
   - A pressure plate. Something heavy would activate it.
@@ -72282,6 +72302,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3c9eb23ca1676244bd039a277d18500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 0}
   dialogue: 
   dialogueLines: []
 --- !u!1 &2120598865
