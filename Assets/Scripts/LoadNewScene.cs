@@ -18,7 +18,6 @@ public class LoadNewScene : MonoBehaviour
 
 
 	void Start(){
-		door = GameObject.Find("Door");
 		if(door != null){
 			doorAnimator = door.GetComponent<Animator>();	
 		}

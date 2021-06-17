@@ -9813,10 +9813,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3c9eb23ca1676244bd039a277d18500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 0}
   dialogue: ---
   dialogueLines:
   - Congratulation! You read this tablet! Don't forget to press SPACE to continue!
-  - To move en object hold the button E pressed while standing near a movable object!
+  - To move an object hold the button E pressed and move in the desired direction!
+  - Press F to interact or inspect.
+  - Good luck!
 --- !u!61 &894076269
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13685,6 +13688,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1154452134}
   - component: {fileID: 1154452135}
+  - component: {fileID: 1154452136}
   m_Layer: 0
   m_Name: Egypt-Tilesets_16
   m_TagString: Untagged
@@ -13757,6 +13761,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1154452136
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1154452133}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4faba39e256a3f542b1c8b8861605e85, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1157960083
 GameObject:
   m_ObjectHideFlags: 0
@@ -14659,6 +14682,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1231845240 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7081797797112827813, guid: 794ed6ae05383b0439126fb2470c2c61, type: 3}
+  m_PrefabInstance: {fileID: 7081797796889518976}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1234124500
 GameObject:
   m_ObjectHideFlags: 0
@@ -24733,6 +24761,44 @@ PrefabInstance:
       objectReference: {fileID: 313764904}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a6d19a46f9942a94eae0440fa4d5dd4a, type: 3}
+--- !u!1 &865487209426719363 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 865487210327908338, guid: a6d19a46f9942a94eae0440fa4d5dd4a, type: 3}
+  m_PrefabInstance: {fileID: 865487209426719362}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &865487209426719364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865487209426719363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 924c53a1f577ab04692f7d631db9239a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animPillar: {fileID: 1154452136}
+  animPressurePlate: {fileID: 865487209426719365}
+--- !u!95 &865487209426719365
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865487209426719363}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4db21eb2346456f498279a93fb9aff02, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &7081797796889518976
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24841,6 +24907,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7907217242604287265, guid: 4fadfdf29cb0e6a41ab8317cb2b308e6, type: 3}
+      propertyPath: door
+      value: 
+      objectReference: {fileID: 1231845240}
     - target: {fileID: 7907217242604287266, guid: 4fadfdf29cb0e6a41ab8317cb2b308e6, type: 3}
       propertyPath: m_Name
       value: Exit
