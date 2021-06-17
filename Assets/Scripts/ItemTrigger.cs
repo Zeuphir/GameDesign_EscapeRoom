@@ -13,7 +13,7 @@ public class ItemTrigger : MonoBehaviour
 
     void Update()
     {
-        if (inside && Input.GetKeyDown(KeyCode.Space))
+        if (inside && Input.GetKeyDown(KeyCode.E))
         { 
 	        if (GameManager.instance.itemPresent(triggerItem))
 	        {
