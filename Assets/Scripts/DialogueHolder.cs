@@ -25,12 +25,24 @@ public class DialogueHolder : MonoBehaviour
         {
             if (!dMan.dialogActive)
             {
-				anim.SetTrigger("trigger");
+                if (anim)
+                {
+                    anim.SetBool("isTalking", true);
+                }
+	
                 dMan.dialogueLines = dialogueLines;
                 dMan.currentLine = 0;
                 dMan.ShowDialogue();
             }
 
+        }
+
+        if (!dMan.dialogActive)
+        {
+            if (anim)
+            {
+                anim.SetBool("isTalking", false);
+            }
         }
     }
 
