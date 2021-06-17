@@ -8,7 +8,7 @@ public class UITimer : MonoBehaviour
 {
     public Text TimerText;
     public bool playing;
-    private float timer = 300; //1800
+    private float timer = 720; //12 min
     public string game_over_scene_name;
     private bool reached_zero;
 

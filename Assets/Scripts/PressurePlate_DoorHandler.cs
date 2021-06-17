@@ -25,11 +25,11 @@ public class PressurePlate_DoorHandler : MonoBehaviour
         if (System.Array.Find(hitColliders, element => element.tag == "Trigger"))
         {
             press_plate();
-            Debug.Log("Activated Plate. Status: " + pressed);
+           // Debug.Log("Activated Plate. Status: " + pressed);
         }
         else {
             depress_plate();
-            Debug.Log("Deactivated Plate. Status: "+pressed);
+           //Debug.Log("Deactivated Plate. Status: "+pressed);
         }
 
     }

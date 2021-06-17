@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
 	public static GameManager instance;
-	public bool isPaused;
 
 	public List<Item> items = new List<Item>(); //What kind of items we have
 	public List<int> itemNumbers = new List<int>();//How many items we have

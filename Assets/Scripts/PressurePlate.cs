@@ -28,7 +28,7 @@ public class PressurePlate : MonoBehaviour
         		anim.SetBool("isOpen", true);
 
 	    }
-	    Debug.Log("Enter: " + count);
+	    //Debug.Log("Enter: " + count);
     }
 
     private void OnTriggerExit2D(Collider2D other){    	
@@ -38,7 +38,7 @@ public class PressurePlate : MonoBehaviour
     	if(validTrigger == other.name && count != limit){
         		anim.SetBool("isOpen", false);
 	    }
-	    Debug.Log("Exit: " + count);
+	    //Debug.Log("Exit: " + count);
 	}
 
     public void SETSprite(Sprite sprite)
