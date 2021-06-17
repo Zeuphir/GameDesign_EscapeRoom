@@ -25,7 +25,7 @@ public class DialogueHolder : MonoBehaviour
         {
             if (!dMan.dialogActive)
             {
-				anim.SetBool("isTalking", true);
+				anim.SetTrigger("trigger");
                 dMan.dialogueLines = dialogueLines;
                 dMan.currentLine = 0;
                 dMan.ShowDialogue();
